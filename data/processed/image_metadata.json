@@ -1,0 +1,27 @@
+{
+  "total_images": 7325,
+  "image_size": [
+    224,
+    224
+  ],
+  "categories": [
+    "Audio",
+    "Automotive",
+    "Beauty",
+    "Books",
+    "Camera",
+    "Drones",
+    "Electronics",
+    "Fashion",
+    "Gaming",
+    "Kitchen",
+    "Office",
+    "Other",
+    "Smart_Home",
+    "Sports",
+    "Toys",
+    "Wearables"
+  ],
+  "images_dir": "C:\\Users\\Rajshree Singh\\Desktop\\ATLAS\\data\\images",
+  "downloaded_at": "2026-03-15T19:37:12.816191"
+}
