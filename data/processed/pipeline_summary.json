@@ -1,0 +1,32 @@
+{
+  "total_records": 300090,
+  "sources": {
+    "amazon_canada": 299991,
+    "newsapi": 99
+  },
+  "avg_rating": 2.55,
+  "avg_price": 100.33,
+  "processed_at": "2026-03-15T17:47:12.549135",
+  "columns": [
+    "product_id",
+    "product_name",
+    "source",
+    "category",
+    "price",
+    "list_price",
+    "discount_pct",
+    "rating",
+    "review_count",
+    "is_bestseller",
+    "image_url",
+    "review_text",
+    "value_score",
+    "popularity_score",
+    "discount_tier",
+    "rating_tier",
+    "title_length",
+    "title_word_count",
+    "price_per_rating",
+    "processed_at"
+  ]
+}
