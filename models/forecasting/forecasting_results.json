@@ -1,0 +1,30 @@
+{
+  "task": "7-day demand forecasting",
+  "seq_len": 30,
+  "forecast_horizon": 7,
+  "input_features": 4,
+  "train_samples": 113,
+  "test_samples": 25,
+  "models": {
+    "LSTM": {
+      "mae": 0.2130216360092163,
+      "rmse": 0.25245147943496704,
+      "mape": 83031760.0,
+      "dir_acc": 0.4
+    },
+    "GRU": {
+      "mae": 0.14633196592330933,
+      "rmse": 0.1765212118625641,
+      "mape": 63716756.0,
+      "dir_acc": 0.6
+    },
+    "Naive_Baseline": {
+      "mae": 0.17017009854316711,
+      "rmse": 0.20502878725528717,
+      "mape": 42847968.0
+    }
+  },
+  "best_model": "GRU",
+  "baseline_improvement_pct": 14.008414418242085,
+  "trained_at": "2026-03-15T21:20:22.756545"
+}
