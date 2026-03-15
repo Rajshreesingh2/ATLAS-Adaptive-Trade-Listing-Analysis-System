@@ -1,0 +1,23 @@
+{
+  "model": "Hybrid Recommender v2",
+  "components": [
+    "Collaborative SVD",
+    "Content TF-IDF + SVD",
+    "Feature scoring"
+  ],
+  "weights": {
+    "collaborative": 0.3,
+    "content": 0.45,
+    "feature": 0.25
+  },
+  "n_products": 10000,
+  "n_users": 500,
+  "n_interactions": 6623,
+  "metrics": {
+    "precision@10": 0.0,
+    "recall@10": 0.0,
+    "ndcg@10": 0.0,
+    "f1@10": 0.0
+  },
+  "trained_at": "2026-03-15T22:47:38.225108"
+}
