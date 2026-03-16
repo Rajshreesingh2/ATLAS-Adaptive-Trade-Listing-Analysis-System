@@ -1,0 +1,17 @@
+{
+  "model": "Google Gemini 1.5 Flash",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "vector_store": "ChromaDB",
+  "n_products": 5000,
+  "retrieval_k": 5,
+  "demo_queries": 5,
+  "capabilities": [
+    "Product search and recommendation",
+    "Price comparison",
+    "Review quality assessment",
+    "Category-filtered search",
+    "Multi-turn conversation",
+    "Contextual follow-up questions"
+  ],
+  "built_at": "2026-03-16T12:46:59.422514"
+}

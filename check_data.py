@@ -1,0 +1,16 @@
+﻿import pandas as pd
+df = pd.read_csv('data/processed/atlas_nlp_dataset.csv', low_memory=False)
+print('=== REAL NUMBERS ===')
+print('Total products:', len(df))
+print('Avg rating:', round(df['rating'].mean(), 2))
+print('Top 10 products by score:')
+df['score'] = df['rating'].fillna(0) * df['review_count'].fillna(0)
+top = df.nlargest(10, 'score')[['product_name','price','rating','review_count','predicted_category']]
+print(top.to_string())
+print('Fake score avg:', round(df['fake_review_score'].mean(), 2))
+print('Sentiment:')
+print(df['sentiment_label'].value_counts())
+print('Top brands:')
+print(df['brand_extracted'].value_counts().head(10))
+print('Categories:')
+print(df['predicted_category'].value_counts().head(10))
